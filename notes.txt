@@ -1,0 +1,4 @@
+Droplet:
+	⁃	url: capricorn.propulsion-learn.ch www.capricorn.propulsion-learn.ch
+	⁃	user: capricorn
+	⁃	pwd: gocapricorn

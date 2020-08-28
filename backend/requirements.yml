@@ -1,0 +1,15 @@
+name: luna-backend
+dependencies:
+  - python=3.7
+  - psycopg2
+  - pip
+  - pip:
+      - django==3.0.3
+      - djangorestframework==3.11.0
+      - djangorestframework-simplejwt==4.4.0
+      - coreapi==2.3.3
+      - Markdown==3.2.2
+      - Pillow==7.1.2
+      - gunicorn==20.0.4
+      - flake8==3.7.9
+      - django-cors-headers==3.4.0

@@ -1,0 +1,13 @@
+.idea
+__pycache__
+*.pyc
+.DS_Store
+media-files
+static-files
+migrations/*
+
+node_modules
+/.pnp
+.pnp.js
+/coverage
+/build
