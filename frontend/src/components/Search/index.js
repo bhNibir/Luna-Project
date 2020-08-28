@@ -90,9 +90,9 @@ const Search = (props) => {
         setRestaurants(response.data);
         console.log('Restaurants retrieved');
       })
-      .catch((error) => {
-        console.log('Get restaurants failed', error.response.data);
-      });
+      //.catch((error) => {
+      //  console.log('Get restaurants failed', error.response.data);
+      //});
   };
 
   // get users
@@ -105,9 +105,9 @@ const Search = (props) => {
         setUsers(response.data);
         console.log('Users retrieved');
       })
-      .catch((error) => {
-        console.log('Get users failed', error.response.data);
-      });
+      //.catch((error) => {
+      //  console.log('Get users failed', error.response.data);
+      //});
   };
 
   // get reviews
@@ -120,9 +120,9 @@ const Search = (props) => {
         setReviews(response.data);
         console.log('Reviews retrieved');
       })
-      .catch((error) => {
-        console.log('Get reviews failed', error.response.data);
-      });
+      //.catch((error) => {
+      //  console.log('Get reviews failed', error.response.data);
+      //});
   };
 
   // get categories
@@ -134,9 +134,9 @@ const Search = (props) => {
         setCategories(response.data);
         console.log('Categories retrieved');
       })
-      .catch((error) => {
-        console.log('Get categories failed', error.response.data);
-      });
+      // .catch((error) => {
+      //   console.log('Get categories failed', error.response.data);
+      // });
   };
 
   // manage search field changes

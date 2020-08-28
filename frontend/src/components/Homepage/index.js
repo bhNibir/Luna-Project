@@ -55,9 +55,9 @@ const Homepage = () => {
         setRestaurants(response.data);
         console.log('Restaurants retrieved');
       })
-      .catch((error) => {
-        console.log('Get restaurants failed', error.response.data);
-      });
+      //.catch((error) => {
+       // console.log('Get restaurants failed', error.response.data);
+      //});
   };
 
   const onSearchChange = (e) => {
