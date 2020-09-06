@@ -77,12 +77,6 @@ const RestaurantDetail = styled.div`
   background: white;
 `;
 
-const RestaurantDetailTitle = styled.p`
-  font-size: 16px;
-  color: #4c4c4c;
-  margin-bottom: 2px;
-`;
-
 const RestaurantDetailContent = styled.p`
   margin-left: 10px;
 `;
